@@ -169,6 +169,7 @@ Nodes:
           CLOUDFLARE_API_KEY: 
 
 EOF
+	apt install git
 	cd /etc/XrayR
 	git clone https://github.com/chaomynhan06/xrayr.git
 	XrayR restart
