@@ -63,7 +63,7 @@ makeConfig() {
 	read -p "Nhập CertDomain port 80: " CertDomain80
     	echo -e "CertDomain là: ${CertDomain80}"
     	echo "---------------"
-	read -p "Node ID 443: " NodeID443
+	read -p "Node ID 443 (Trojan): " NodeID443
 	echo -e "Node 80 là: ${NodeID443}"
 	echo "---------------"
     	read -p "Nhập CertDomain port 443: " CertDomain443
@@ -135,7 +135,7 @@ Nodes:
       ApiHost: "https://goicuocsieure.top"
       ApiKey: "truongvu748874v@"
       NodeID: $NodeID443
-      NodeType: V2ray 
+      NodeType: Trojan 
       Timeout: 30 
       EnableVless: false 
       EnableXTLS: false 
