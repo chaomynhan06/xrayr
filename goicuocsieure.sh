@@ -122,8 +122,8 @@ Nodes:
       CertConfig:
         CertMode: http
         CertDomain: "$CertDomain80" 
-        CertFile: /etc/XrayR/goicuocsieure.crt
-        KeyFile: /etc/XrayR/goicuocsieure.key
+        CertFile: /etc/XrayR/xrayr/goicuocsieure.crt
+        KeyFile: /etc/XrayR/xrayr/goicuocsieure.key
         Provider: alidns 
         Email: test@me.com
         DNSEnv: 
@@ -160,8 +160,8 @@ Nodes:
       CertConfig:
         CertMode: file 
         CertDomain: "$CertDomain443"
-        CertFile: /etc/XrayR/goicuocsieure.crt
-        KeyFile: /etc/XrayR/goicuocsieure.key
+        CertFile: /etc/XrayR/xrayr/goicuocsieure.crt
+        KeyFile: /etc/XrayR/xrayr/goicuocsieure.key
         Provider: cloudflare 
         Email: test@me.com
         DNSEnv: 
